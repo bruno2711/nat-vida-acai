@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NatVida Açaí - Demonstração</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      background: #ffffff;
+      min-height: 100vh;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #4c0635;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .banner {
+      background-color: #2e0321;
+      padding: 10px;
+      text-align: center;
+      color: #ffd700;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .btn-whatsapp {
+      display: block;
+      background-color: #25d366;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px;
+      margin: 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 16px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .section {
+      padding: 0 20px 20px 20px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      color: #4c0635;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #4c0635;
+      padding-bottom: 5px;
+    }
+
+    .product-card {
+      display: flex;
+      background: #f1f1f1;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+      align-items: center;
+    }
+
+    .product-img {
+      width: 60px;
+      height: 60px;
+      background-color: #4c0635;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 24px;
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+
+    .product-info h3 {
+      font-size: 16px;
+      color: #222;
+    }
+
+    .product-info p {
+      font-size: 12px;
+      color: #666;
+      margin: 4px 0;
+    }
+
+    .product-info span {
+      font-size: 14px;
+      font-weight: bold;
+      color: #27ae60;
+    }
+
+    .benefits {
+      list-style: none;
+    }
+
+    .benefits li {
+      margin-bottom: 10px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+
+    .benefits li::before {
+      content: "✓";
+      color: #27ae60;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .demo-notice {
+      background: #fff3cd;
+      border: 1px solid #ffeeba;
+      color: #856404;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      margin: 20px;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: auto;
+      background: #f1f1f1;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>NatVida Açaí</h1>
+      <p>Açaí • Lanches • Delivery</p>
+    </header>
+
+    <div class="banner">
+      Demonstração de Site Profissional
+    </div>
+
+    <a href="#" class="btn-whatsapp">PEDIR PELO WHATSAPP</a>
+
+    <div class="section">
+      <h2 class="section-title">Cardápio Exemplo</h2>
+      
+      <div class="product-card">
+        <div class="product-img">🍇</div>
+        <div class="product-info">
+          <h3>Açaí Tradicional 500ml</h3>
+          <p>Açaí cremoso com leite em pó, banana e granolas selecionadas.</p>
+          <span>Consulte valor</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">🍧</div>
+        <div class="product-info">
+          <h3>Copo NatVida Especial</h3>
+          <p>Açaí, morango, leite condensado, Leite Ninho e Nutella.</p>
+          <span>Consulte valor</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">🥤</div>
+        <div class="product-info">
+          <h3>Vitaminado Açaí</h3>
+          <p>Batido com banana, xarope de guaraná e leite.</p>
+          <span>Consulte valor</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Por que pedir conosco?</h2>
+      <ul class="benefits">
+        <li>Açaí de altíssima qualidade e sabor puro</li>
+        <li>Pedido rápido e prático via WhatsApp</li>
+        <li>Entrega agilizada para sua região</li>
+      </ul>
+    </div>
+
+    <div class="demo-notice">
+      ℹ️ <strong>Modelo Demonstrativo:</strong> Os produtos, valores e fotos finais serão personalizados com as informações reais da NatVida Açaí.
+    </div>
+
+    <footer>
+      NatVida Açaí © Todos os direitos reservados.
+    </footer>
+  </div>
+
+</body>
+</html>
